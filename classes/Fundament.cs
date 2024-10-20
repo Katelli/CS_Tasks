@@ -19,7 +19,10 @@ public class Fundament : IFundament
 
     public void SumTwoNumbers()
     {
-        throw new NotImplementedException();
+        double x = 14.5;
+        int y = 7;
+        double sum = x + y;
+        Console.WriteLine($"The sum of {x} + {y} is {sum}");
     }
 
     public double SumTwoNumbersOfGivenType(double a, double b)

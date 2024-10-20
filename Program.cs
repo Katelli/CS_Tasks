@@ -18,5 +18,7 @@ class Program
         string fact = "Um, turtles can breathe through their butts? -Olaf, the snowman";
         Console.WriteLine(fundament.GetAnInterestingFact(fact));
 
+        fundament.SumTwoNumbers();
+
     }
 }

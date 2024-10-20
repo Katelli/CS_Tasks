@@ -2,7 +2,14 @@ public class Fundament : IFundament
 {
     public void CheckOddOrEven(double a)
     {
-        throw new NotImplementedException();
+        if (a % 2 == 0)
+        {
+            Console.WriteLine("Number is even");
+        }
+        else 
+        {
+            Console.WriteLine("Number is odd");
+        }
     }
 
     public string GetAInterestingFact(string fact)

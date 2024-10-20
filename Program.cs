@@ -16,7 +16,7 @@ class Program
         fundament.CheckOddOrEven(5);
 
         string fact = "Um, turtles can breathe through their butts? -Olaf, the snowman";
-        fundament.GetAnInterestingFact(fact);
+        Console.WriteLine(fundament.GetAnInterestingFact(fact));
 
     }
 }

@@ -12,9 +12,9 @@ public class Fundament : IFundament
         }
     }
 
-    public string GetAInterestingFact(string fact)
+    public string GetAnInterestingFact(string fact)
     {
-        throw new NotImplementedException();
+        return $"An interesting fact: {fact}";
     }
 
     public void SumTwoNumbers()

@@ -23,5 +23,5 @@ public interface IFundament
     /// </summary>
     /// <param name="fact">a interesting fact</param>
     /// <returns>a fact of type: string</returns>
-    string GetAInterestingFact(string fact);
+    string GetAnInterestingFact(string fact);
 }

@@ -45,5 +45,9 @@ class Program
         // Reverse string
         Console.WriteLine(fundament.ReverseString("Hello"));
 
+        Console.WriteLine("\n");
+
+        // RecursiveFactorial
+        Console.WriteLine(fundament.RecursiveFactorial(6));
     }
 }

@@ -70,7 +70,7 @@ public class Fundament : IFundament
         {
             return 1;
         }
-        return n;
+        return n * RecursiveFactorial(n - 1);
     }
 
 

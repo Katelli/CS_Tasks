@@ -57,7 +57,9 @@ public class Fundament : IFundament
     public string ReverseString(string str)
     {
         // TODO: reverse the given string
-        return "";
+        char[] charArray = str.ToCharArray();
+        Array.Reverse(charArray);
+        return new string (charArray);
     }
 
     public int RecursiveFactorial(int n)

@@ -33,7 +33,7 @@ public class Fundament : IFundament
 
     // Extra challenges
 
-    public void PrintFibonnaciSeries()
+    public void PrintFibonnaciSeries(int n)
     {
         // TODO: Implement the Fibonacci sequence
         int a = 0;
@@ -45,6 +45,13 @@ public class Fundament : IFundament
         a = b
         b = c
         */
+        for (int i = 0; i < n; i++)
+        {
+            c = a + b;
+            Console.Write($"{c} ");
+            a = b;
+            b = c;
+        }
     }
 
     public string ReverseString(string str)

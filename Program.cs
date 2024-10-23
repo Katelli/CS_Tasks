@@ -27,5 +27,8 @@ class Program
         // Sum two numbers of a given type
         Console.WriteLine($"The sum of 5.5 + 6.8 is {fundament.SumTwoNumbersOfGivenType(5.5, 6.8)}");
 
+        // Fibonnaci
+        fundament.PrintFibonnaciSeries(5);
+
     }
 }
